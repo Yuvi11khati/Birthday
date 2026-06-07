@@ -625,7 +625,12 @@ export default function App() {
                       {img.caption}
                     </h3>
                     <p className="text-base text-ink-soft leading-relaxed">
-                      Every single day brings something wonderful to treasure. Watching you smile, play, and look at the world with curious eyes fills our hearts with a love that grows larger each moment.
+                      {[
+                        "Your smile has a way of brightening every room and every heart. It reminds us that the simplest moments often become the most beautiful memories.",
+                        "Those tiny curious eyes are always searching for something new to discover. Every glance is a reminder of the wonder and excitement that fills your little world.",
+                        "The day you arrived changed our lives forever. From that very first moment, you filled our home with happiness, laughter, and endless love.",
+                        "Surrounded by caring hands and loving hearts, you are growing up in a world full of warmth, affection, and beautiful blessings every single day."
+                      ][i]}
                     </p>
                     <div className="mt-4 flex items-center gap-3">
                       <div className="h-[2px] w-12 bg-lavender" />
